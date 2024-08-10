@@ -1,0 +1,61 @@
+body > div {
+    max-width: 500px;
+}
+
+h1 > div {
+    font-size: 2.5rem;
+}
+
+#list-container .list-item {
+    border-radius: 5px;
+
+    label {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    &:focus {
+        background-color: rgba(0, 128, 218, 0.15);
+        outline: none;
+    }
+
+    &:has(input:checked) label{
+        text-decoration: line-through;
+        text-decoration-color: #1D2A35;
+        color: gray;
+    }
+
+    i.bi.bi-trash3 {
+        font-size: 1.2rem;
+        cursor: pointer;
+        color: #04AA6D;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    &:hover {
+        background-color: rgba(0, 128, 218, 0.34);
+    }
+}
+
+#logo {
+    color: #04AA6D;
+    width: 35px;
+
+    &:hover{
+        color: #037e52;
+    }
+}
+
+#btn-add-task{
+    background-color: #04AA6D;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+    &:hover{
+        background-color: #037e52;
+    }
+}
