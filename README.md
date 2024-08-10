@@ -41,7 +41,7 @@ This is a simple and user-friendly to-do list application built with HTML, CSS, 
 
 **Clone the repository:**
 ```sh
-git clone https://github.com/your-username/to-do-list-app.git
+git clone https://github.com/Rukshan1999/to-do-list-app
 ```
 
 ### Navigate to the project directory:
